@@ -1,5 +1,9 @@
 version: 2
 updates:
+  - package-ecosystem: "github-action"
+    directory: "/"
+    schedule:
+      interval: monthly
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
